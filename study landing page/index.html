@@ -29,9 +29,46 @@
           <a href="/explore more courses pages /index.html"> Explore Courses </a>
         </button>
         <div class="profile-icon">
-            <img src="/assets/Frame 427318863.png" alt-="profile avatar">
-        </div>
-        </div>
+            <img src="/assets/Frame 427318863.png" alt-="profile avatar" id="profile-dropdown-trigger">
+            <div class="dropdown-content">
+                <section class="deepwhitewithzindex">
+                  <article class="cardcolor">
+                    <div class="toparea">
+                      <img src="/assets/Frame 427318863 (1).png" alt="" />
+                      <div class="twoareas">
+                        <p class="deepfont">Ola Samuel</p>
+                        <p class="smallerfont">
+                          Level 5 Money Explorer <br />
+                          ☆ 250 Points
+                        </p>
+                      </div>
+                    </div>
+  
+                    <div class="topareas">
+                      <div class="textandimg">
+                        <img src="/assets/cup (1).png" alt="" />
+                        <p><a href="../first-capstone-project/Progress Page/progress.html">Achievements</a></p>
+                      </div>
+                      <div class="textandimg">
+                        <img src="/assets/notification.png" alt="" />
+                        <p><a href="notificationpage.html">Notifications</a></p>
+                      </div>
+                      <div class="line"></div>
+  
+                      <div class="topareas">
+                        <div class="textandimg">
+                          <img src="/assets/cloud-change.png" alt="" />
+                          <p>Switch Users</p>
+                        </div>
+                        <div class="textandimg">
+                            <a href="/first-capstone-project/Landing page/index.html">
+                          <img src="/assets/logout.png" alt="" />
+                          <p>Logout</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+       
     </header>
     <section class="welcome-section">
         <div class="welcome-message">
@@ -55,7 +92,7 @@
             <p>
                 Welcome to understanding needs vs. wants! This course teaches you the difference between wants and needs, and how to identify them.
             </p>
-            <button class="start-course-btn"> <a href="/Study- course not complete page/index.html"> Start Course </a> </button>
+            <button class="start-course-btn"> <a href="/Study- course not complete page/"> Start Course </a> </button>
         </div>
         <div class="course-card">
             <img src="/assets/Rectangle 70.png" alt="course-image">
@@ -75,5 +112,27 @@
         </div>
     </div>
     </div>
+    <script>
+        const profileIcon = document.getElementById("profile-dropdown-trigger");
+        const dropdownContent = document.querySelector(".dropdown-content");
+  
+        profileIcon.addEventListener("mouseover", () => {
+          dropdownContent.style.display = "block";
+        });
+  
+        profileIcon.addEventListener("mouseout", () => {
+          dropdownContent.style.display = "block";
+        });
+  
+        document.addEventListener("click", (event) => {
+          if (
+            !event.target.closest(".profile-icon") &&
+            !event.target.closest(".dropdown-content")
+          ) {
+            dropdownContent.style.display = "none";
+          }
+        });
+      </script>
+  
 </body>
 </html>
