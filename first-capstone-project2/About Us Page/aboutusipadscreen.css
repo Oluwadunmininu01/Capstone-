@@ -2,9 +2,18 @@
   html {
     font-size: 62.2%;
   }
-  .forleft {
+  .forleft li {
     display: none;
   }
+  .forleft {
+    position: relative;
+  }
+  .forleft img {
+    position: absolute;
+    top: 1.5rem;
+    width: 7rem !important;
+  }
+
   header {
     padding: 1rem 2rem !important;
     display: flex;
@@ -194,6 +203,16 @@
   }
   .section-2 {
     height: 50h !important;
+  }
+
+  .forleft {
+    position: relative;
+  }
+  .forleft img {
+    width: 140%;
+
+    position: absolute;
+    right: -1rem;
   }
 
   .dropdown-content {

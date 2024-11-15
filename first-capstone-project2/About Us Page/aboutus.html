@@ -15,47 +15,43 @@
 
 </head>
 <body>
-    <header>
-       <article class="left">
-        <ul class="forleft">
-          <li ><a href="../Landing page/index.html">Home</a></li>
-          <li><a href="../About Us Page/aboutus.html">About us</a></li>
-          <img src="/assets/Component 2.png" class="testt" alt="">
-          <li><a href="../First Login/firstloginpage.html">Login</a></li>
-          <li><a href="../Registration pages/index.html">Register</a></li>
+  <header>
+    <article class="left">
+     <ul class="forleft">
+         <li ><a href="/index.html">Home</a></li>
+         <li><a href="aboutus.html">About us</a></li>
+         <img src="assets/Component 2.png" class="testt" alt="">
+         <li><a href="firstloginpage.html">Login</a></li>
+         <li><a href="parentRegistrationpage.html">Register</a></li>
+         
+     </ul>
+    </article>
+    <div class="profile-icon">
+      <img
+       src="assets/menu.png"  class="forsmallscreen"
+
+        alt="profile avatar"
+        id="profilopdown-content">
+      <div class="dropdown-content">
+        <section class="deepwhitewithzindex">
+          <article class="cardcolor">
+             <ul class="tryyyy">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="../About Us Page/aboutus.html">About us</a></li>
+              <li><a href="../First Login/firstloginpage.html">Login</a></li>
+              <li class="lastlink"><a href="../Registration pages/index.html">Register</a></li>
+
           
-      </ul>
-
-       </article>
-
-      <div class="profile-icon">
-
-        <img
-         src="/assets/menu.png"  class="forsmallscreen"
-
-          alt="profile avatar"
-          id="profile-dropdown-trigger"
-        />
-        <div class="dropdown-content">
-          <section class="deepwhitewithzindex">
-            <article class="cardcolor">
-               <ul class="tryyyy">
-                <li><a href="../Landing page/index.html">Home</a></li>
-                <li><a href="../About Us Page/aboutus.html">About us</a></li>
-                <li><a href="firstloginpage.html">Login</a></li>
-                <li class="lastlink"><a href="../Registration pages/index.html">Register</a></li>
-  
-                <img src="/assets/Component 6 (1).png" alt="" />
-            
-               </ul>
-            </div>
-              </div>
+             </ul>
             </article>
-          </section>
-        </div>
+          </section> 
+         </div>
+           </div>
       </div>
-    </header>
-    <section class="section-1">
+    </div>
+  
+ </header>
+ <section class="section-1">
        
     </section>
 
@@ -307,26 +303,6 @@
  
    
     
-      <script>
-        const profileIcon = document.getElementById("profile-dropdown-trigger");
-        const dropdownContent = document.querySelector(".dropdown-content");
-  
-        profileIcon.addEventListener("mouseover", () => {
-          dropdownContent.style.display = "block";
-        });
-  
-        profileIcon.addEventListener("mouseout", () => {
-          dropdownContent.style.display = "block";
-        });
-  
-        document.addEventListener("click", (event) => {
-          if (
-            !event.target.closest(".profile-icon") &&
-            !event.target.closest(".dropdown-content")
-          ) {
-            dropdownContent.style.display = "none";
-          }
-        });
-      </script>
+      <script src="aboutus.js"></script>
   </body>
 </html>
