@@ -82,7 +82,7 @@ p {
   padding: 10rem 0rem;
   font-family: "Comic Neue";
   min-height: 80vh;
-  background-image: url("/assets/Find\ Topic.png");
+  background-image: url("/assets/Find Topic (1).png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem 0;
@@ -104,7 +104,7 @@ p {
   display: flex;
   justify-content: center;
   color: #ffc909;
-  background-color: #031030 !important;
+  background-color: #298cf9 !important;
 }
 .firstp {
   color: black;
@@ -142,7 +142,7 @@ p {
 }
 
 .whatour {
-  background-image: url("/assets/Testimony.png");
+  background-image: url("assets/Testimony (2).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,37 +163,12 @@ p {
   margin-bottom: 3rem;
 }
 
-.button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-  width: 95%;
-}
-.parent-login,
 .tutor-login {
-  display: flex;
-  color: #000;
-  height: 2.5rem;
-  border-radius: 1.6rem;
-  background-color: white !important;
-  justify-content: center;
-  right: -1rem;
-
-  align-items: center;
+  background-color: #000;
 }
 .tryingflex {
   display: flex;
   justify-content: center;
-}
-.parent-login {
-  color: #000;
-  width: 20rem;
-  position: relative;
-  border: 1px solid #ccc;
-  position: relative;
-  border-radius: 2rem;
-  background-color: lightgreen;
 }
 
 .hidden {
@@ -212,59 +187,48 @@ img {
   width: 98%;
 }
 
-.whatour {
-  background-image: url("/assets/Testimony.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 3rem 0;
-  min-height: 97vh;
-  font-family: "Comic Neue";
-  font-weight: 400;
-  font-style: normal;
-}
-.centring {
-  display: flex;
-  justify-content: center;
-}
-.centring h2 {
-  font-size: 4.23rem;
-  color: #ffc909;
-  font-weight: 700;
-  margin-bottom: 3rem;
-}
-
 .button-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  width: 95%;
+  height: 3rem;
+  width: 24rem;
+  margin: auto;
+  background-color: pink;
+  gap: 0.5rem;
+  border-radius: 1.6rem;
 }
-.parent-login,
+
 .tutor-login {
   display: flex;
   color: #000;
   height: 2.5rem;
-  border-radius: 1.6rem;
-  background-color: white !important;
+  width: 1rem;
+  border-radius: 10rem;
+
   justify-content: center;
-  right: -1rem;
+
+  align-items: center;
+}
+#colorblue {
+  background-color: blue;
+}
+
+.parent-login {
+  display: flex;
+  padding: 0 0.5rem;
+  background-color: blue !important;
+  height: 2.5rem;
+  width: 12.4rem;
+  border-radius: 10rem;
+  justify-content: center;
 
   align-items: center;
 }
 .tryingflex {
   display: flex;
   justify-content: center;
-}
-.parent-login {
-  color: #000;
-  width: 20rem;
-  position: relative;
-  border: 1px solid #ccc;
-  position: relative;
-  border-radius: 2rem;
-  background-color: lightgreen;
 }
 
 .hidden {
@@ -325,7 +289,7 @@ img {
   margin-bottom: 1rem;
 }
 .section-2 {
-  background-image: url("/assets/Why\ Wealth4Kids.png");
+  background-image: url("/assets/Why Wealth4Kids@2x copy.png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 4rem 0;
@@ -423,9 +387,7 @@ a {
   width: 20%;
 }
 .button-container button {
-  /* Base styles for all buttons */
-  background-color: white;
-  /* Other styles as needed */
+  background-color: white !important;
 }
 
 .button-container button.active {
@@ -433,11 +395,11 @@ a {
 }
 
 .parent-login:hover {
-  background-color: lightgreen !important;
+  background-color: lightgreen;
 }
 
 .tutor-login:hover {
-  background-color: #0069d9 !important;
+  background-color: #0069d9;
 }
 .hero {
   /* background-image: url("Wealth4Kids/ Hero Section.png");
@@ -451,12 +413,12 @@ a {
    */
   background-color: transparent;
 
-  background-image: url("/assets/Hero\ Section.png");
+  background-image: url("assets/Rectangle 139 (1).jpg");
   background-repeat: no-repeat;
   min-height: 110vh;
 }
 .section-4 {
-  background-image: url("/assets/Rectangle\ 22.png");
+  background-image: url("assets/Rectangle 22 (1).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -471,7 +433,7 @@ a {
   margin-left: 15rem;
 }
 .envelope {
-  background-image: url("/assets/Get\ in\ touch.png");
+  background-image: url("assets/Group 108 1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -484,7 +446,7 @@ a {
   font-weight: 400;
 }
 .lastsection {
-  background-image: url("/assets/Rectangle\ 58\ 2.png");
+  background-image: url("assets/CTA Section.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -601,8 +563,6 @@ a {
   padding: 2rem 17rem;
   margin: 2rem 0;
 }
-.liikle {
-}
 .forlikkleflex {
   display: flex;
   justify-content: space-between;
@@ -703,7 +663,7 @@ a {
   background-color: #fed399;
 }
 .justtoreduce {
-  padding-bottom: 7.3rem;
+  padding-bottom: 6.9rem;
 }
 .likkle {
   padding: 1.6rem 2rem;
@@ -891,7 +851,7 @@ button:hover {
   flex-direction: column;
 }
 .faq {
-  background-image: url("/assets/FAQ.png");
+  background-image: url("assets/Frame 427318922 (1).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -927,8 +887,11 @@ header h3 {
   footer */
 
 footer {
-  background-image: url("/assets/Footer.png");
+  background-image: url("/assets/Footer.jpg");
   padding: 4rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   color: white;
 }
